@@ -2,7 +2,6 @@
 ---
 - name: Ansible install tools
   hosts: linux1
-  remote_user: vagrant
   become: yes
 
   roles:
