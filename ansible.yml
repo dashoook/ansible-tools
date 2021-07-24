@@ -1,7 +1,7 @@
 
 ---
 - name: Ansible install tools
-  hosts: webservers
+  hosts: linux1
   become: yes
 
   roles:
