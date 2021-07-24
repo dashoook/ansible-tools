@@ -7,5 +7,5 @@
   roles:
     - geerlingguy.repo-epel
     - geerlingguy.git
-    - tecris.maven
+    - gantsign.maven
     - geerlingguy.nodejs
