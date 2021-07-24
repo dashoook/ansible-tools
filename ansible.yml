@@ -1,12 +1,13 @@
+
 ---
 - name: Ansible install tools
-hosts: linux1
-remote_user: vagrant
-become: yes
+  hosts: linux1
+  remote_user: vagrant
+  become: yes
 
-roles:
-  - geerlingguy.repo-epel
-  - geerlingguy.git
-  - tecris.maven
-  - geerlingguy.ansible
-  - geerlingguy.nodejs
+  roles:
+    - geerlingguy.repo-epel
+    - geerlingguy.git
+    - tecris.maven
+    - geerlingguy.ansible
+    - geerlingguy.nodejs
