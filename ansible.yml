@@ -9,5 +9,4 @@
     - geerlingguy.repo-epel
     - geerlingguy.git
     - tecris.maven
-    - geerlingguy.ansible
     - geerlingguy.nodejs
