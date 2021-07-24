@@ -1,6 +1,6 @@
 ---
 - name: Ansible install tools
-hosts: localhost
+hosts: linux1
 remote_user: vagrant
 become: yes
 
